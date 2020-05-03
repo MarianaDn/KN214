@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot');
+  src: url('webfont.eot?#iefix') format('embedded-opentype'),
+       url('webfont.woff2') format('woff2'),
+       url('webfont.woff') format('woff'),
+       url('webfont.ttf')  format('truetype'),
+       url('webfont.svg#svgFontName') format('svg');
+}
+table{
+    border: 1px solid rgb(116, 26, 61);
+    width: 550px;
+    height: 350px;
+    border-width: 2px;
+    background-color: rgb(249, 211, 226);
+    color: rgb(116, 26, 61);
+    font-weight: bold;
+    font-family: 'MyWebFont', Fallback, sans-serif;
+}
+.number{
+    width: 20px;
+    height: 135px;
+}
+.picture{
+    width: 135px;
+    height: 135px;
+}
+.inform{
+    width: 190px;
+    height: 135px;
+}
+.vaga{
+    width: 50px;
+    height: 135px;
+}
+.cost{
+    width: 50px;
+    height: 135px;
+}
+.macarun{
+    width: 135px;
+    height: 135px;
+    border-radius: 75px;
+}
+td{
+    text-align: center;
+}

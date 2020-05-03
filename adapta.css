@@ -1,0 +1,203 @@
+.menu [type="checkbox"]{
+    display: none;
+}
+.menu label.toggleMenu{
+    background-color: white;
+    display: none;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: Segoe Script, cursive;
+    color: #716836;
+    cursor: pointer;
+    position: relative;
+}
+
+@media all and (max-width: 1100px){
+    .goods_line1{
+        max-width: 800px;
+    }
+    .goods_line3{
+        max-width: 1000px;
+    }
+    .bd{
+        width: 260px;
+    }
+}
+@media all and (max-width: 920px){
+    .menu ul{
+        font-size: 15pt
+    }
+    .goods_line3{
+        max-width: 910px;
+    }
+    .bd{
+        width: 210px;
+    }
+    .wrapper{
+        flex-flow: column nowrap;
+    }
+    .contact, .contact_1{
+        width: 100%;
+        padding: 0;
+    }
+    .contact_1{
+        padding-top: 65px;
+    }
+    .dark_theme{
+        padding-right: 5px;
+        margin-right: 5px;
+    }
+    .light_theme{
+        padding-left: 5px;
+        margin-left: 10px;
+    }
+}
+@media all and (max-width: 765px){
+    .goods_line1{
+        justify-content: center;
+    }
+    .goods_line3{
+        max-width: 400px;
+        justify-content: center;
+    }
+    .bd{
+        width: 290px;
+    }
+    .dark_theme{
+        padding-right: 20px;
+        font-size: 7.5pt;
+        margin-right: 10px;
+    }
+    .light_theme{
+        width: 5%;
+        font-size: 8px;
+        padding-right: 10px;
+    }
+}
+@media all and (max-width: 700px){
+    .menu ul{
+        display: none;
+    }
+    .menu label.toggleMenu{
+        display: block;
+    }
+    input.toggleMenu:checked + label.toggleMenu{
+        background-color: rgb(252, 248, 236);
+    }
+    input.toggleMenu:checked ~ ul{
+        display: block;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .menu li:hover > ul{
+        display: none;
+    }
+    .content{
+        flex-flow: column nowrap;
+    }
+    .aboutus{
+        font-size: 46pt;
+    }
+    p{
+        font-size: 12pt;
+    }
+    .cake1{
+        width: 130px;
+    }
+    .cake2, .cake5{
+        width: 90px;
+    }
+    .nameof{
+        font-size: 36pt;
+    }
+    .reserve{
+        font-size: 15pt;
+    }
+    .nameof1{
+        font-size: 30pt;
+    }
+    .pynktu{
+        font-size: 16pt;
+    }
+    .end{
+        font-size: 55pt;
+    }
+    .wrapper{
+        padding: 100px;
+    }
+    .all{
+        max-width: 400px;
+    }
+    .theend{
+        max-width: 300px;
+    }
+    .endof{
+        font-size: 2.5em;
+    }
+    .up{
+        display: none;
+    }
+    .dark_theme{
+        width: 4.5%;
+        font-size: 7px;
+    }
+    .light_theme{
+        width: 4.5%;
+        font-size: 7px;
+        padding-right: 15px;
+    }
+}
+@media all and (max-width: 650px){
+    .dark_theme{
+        margin-right: 5px;
+        width: 5px;
+        padding-right: 22px;
+    }
+    .ligth_theme{
+        margin-right: 5px;
+        width: 4px;
+        padding-right: 22px;
+    }
+}
+@media all and (max-width: 500px){
+    .cake1{
+        display: none;
+    }
+    .cake2, .cake5{
+        display: none;
+    }
+    .main_content{
+        padding-bottom: 50px;
+    }
+    .cakess{
+        width: 220px;
+    }
+    .bd{
+        width: 220px;
+    }
+    .all{
+        max-width: 250px;
+    }
+    .theend{
+        max-width: 200px;
+    }
+    .endof{
+        font-size: 1.5em;
+        padding: 0;
+    }
+    .up{
+        display: none;
+    }
+    .ennd_{
+        font-size: 20pt;
+        padding-top: 5px;
+    }
+    .ennd__{
+        font-size: 8pt;
+        padding-top: 10px;
+    }
+    .light_theme{
+        padding-right: 22px;
+    }
+}
